@@ -75,7 +75,7 @@ Infix Postfix Prefix
 
 ```
 def prefix(string) :
-converting the string or given content in to postfix,prefix 
+converting the string or given content into postfix,prefix 
 
 return postfix 
 
@@ -84,8 +84,8 @@ return postfix
 # Question 7 
 problems of list comprihensions like :
 
-Nest list comprehensions
-Write a function nested_prime() to generate a list of prime numbers upto using only a nested list comprehension
+Nested list comprehensions
+Write a function nested_prime() to generate a list of prime numbers upto n using only a nested list comprehension
 
 ```
 def solver() :

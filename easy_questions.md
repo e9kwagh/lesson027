@@ -44,22 +44,21 @@ The output file should be named 'results.csv' and should contain the results of 
  ```
 
 # Questions 6
-Remove Duplicates from Sorted Array
-
-Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once
+Infix Postfix Prefix 
 
 ```
-Input: nums = [1,1,2]
-Output: 2, nums = [1,2]
+def prefix(string) :
+converting the string or given content in to postfix,prefix 
+
+return postfix 
 
 ```
-
 
 # Question 7 
 Problems of list comprihensions like :
 
-Nest list comprehensions
-Write a function nested_prime() to generate a list of prime numbers upto using only a nested list comprehension
+Nested list comprehensions
+Write a function nested_prime() to generate a list of prime numbers upto n using only a nested list comprehension
 
 ```
 def solver() :

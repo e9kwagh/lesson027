@@ -43,7 +43,7 @@ The output file should be named 'results.csv' and should contain the results of 
 
  ```
 
-# Questions 6
+# Questions 5
 Infix Postfix Prefix 
 
 ```
@@ -54,7 +54,7 @@ return postfix
 
 ```
 
-# Question 7 
+# Question 6
 Problems of list comprihensions like :
 
 Nested list comprehensions
@@ -66,7 +66,7 @@ def solver() :
     return list( list of prime no)
 ```
 
-# Question 8 
+# Question 7
 
 Find the largest prime factors till that no :
 
@@ -79,7 +79,7 @@ def solver(a= "start value" , b = "end value")
 ```
 
 
-#  Question 9
+#  Question 8
 File i/o operations , converting into json , csv ,reading or writing 
 
 
@@ -91,7 +91,7 @@ def solver(filename):
 output :  file 
 
 ```
-# Question 10 
+# Question 9
 
 Creating star formations /patterns
 
@@ -101,7 +101,7 @@ def pattern(string):
    
 
 ```
- # Questions 12
+ # Questions 10
 Spiral Matrix
 
 Given an m x n matrix, return all elements of the matrix in spiral order.
@@ -113,7 +113,7 @@ Output: [1,2,3,6,9,8,7,4,5]
 ```
 
 
- # Questions 13 
+ # Questions 11 
  Number Letter Counts
 
  If the numbers 

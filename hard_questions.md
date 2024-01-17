@@ -1,5 +1,5 @@
-# problem 1
-Compare dictionaries without 'using recursions'
+# Problem 1
+Compare dictionaries  'using recursions'
 
 ```
 def dict_compare(*args): 
@@ -10,44 +10,47 @@ return True/False
 
 
 
-# problem 2
-Lexicographic Permutations of 0,1,2 
-solving this without knowing the technic
+# Problem 2
+ Matching regular expression
 
+Given an input string s and a pattern p, implement regular expression matching with support for '.' and '*' where:
 
-012</br>
-021</br>
-102</br>
-120</br>
-201</br>
-210</br>
-Part A :
-What is the millionth lexicographic permutation of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9?
+'.' Matches any single character.​​​​
+'*' Matches zero or more of the preceding element.
 
-Part B :  Generalize the solution in Part A to identify the nth lexicographic permutation of a list of numbers and letters.
-
-The list of numbers and letters may be defined as
 
 ```
-solver("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ")
-
-return the millionnt lexicographic permutation
+Input: s = "aa", p = "a"
+Output: false
+because "a" does not match the entire string "aa".
 ```
 
+# Problem 3 
+ Roman to Integer  ( Vise versa)
+Roman numerals are represented by seven different 
+```
+Input: s = "III"
+Output: 3
+Explanation: III = 3.
 
-# Problem 3
-Counting Sundays
+```
 
-counting sundays from p year to q year
+# Problem 4
+Finding the Friday 
+
+We have a given date and we have to find whether it is Friday 
+ or 
+We have given year and find out how many friday comes
+on 1st of month
 
 ```
 solver(from: datetime.date, to: datetime.date)
-return count
+return is it a friday
 
 ```
 
 
-# Problem 4
+# Problem 5
 Pyramid problem find the maximum total 
 
 By starting at the top of the triangle below and moving to adjacent numbers on the row below, the maximum total from top to bottom is 23 
@@ -58,27 +61,41 @@ output : max of the numbers in the pyramid
 ```
 
 
-# Problem 5
+# Problem 6 
+Letter Combinations of a Phone Number
 
-Starting in the top left corner of a  2x2
- grid, and only being able to move to the right and down, there are exactly 
- routes to the bottom right corner.
+convert the numbers into text by looking at the phone's  dial pad
 
- ```
- input : solver(nXm) :
-output : number of paths 
- ```
-# Problem 6
-Largest Product in a Grid
-What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the  grid?
+eg  2: ABC
 
 ```
-def solver(p,q) :
-  return greatest product of n
+def fun("23")
+     return  ["ad","ae","af","bd","be","bf","cd","ce","cf"]
+
 ```
 
+# Problem 7
 
-# Problem 7 
+Convert the binary search tree into a doubly linked list 
+
+
+ ```
+ input : solver(binary search tree) :
+output : doubly linked list
+ ```
+
+ 
+# Problem 8
+ Longest Common Prefix
+
+ Write a function to find the longest common prefix string amongst an array of strings.
+
+```
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
+```
+
+# Problem 9
  Os operations 
 
  Advance operations related to the Os
@@ -88,12 +105,12 @@ def solver(p,q) :
 
  ```
 
-# Problem 8 
+# Problem 10
 Eight Queen problem 
 
-given is a chess board and we have to find the perfect way to add eigth queens such that they will not kill each other , 
+given is a chess board and we have to find the perfect way to add eigth queens such that they will not kill each other 
 
-# Problem 9 
+# Problem 11
 Using list/dictionary
 
 Find the difference or intersection / union between the strings
@@ -106,7 +123,7 @@ def solver(string):
 ```
 
 
-# Problem 10 
+# Problem 12
 Cataloging a list of lists using recursion
 
 takes a deeply nested list of lists and flattens it out, ignores any dict elements, and returns a dictionary where the key is value and the value is the count of each item in the flattened list. Use recursion to flatten the list.
@@ -117,4 +134,22 @@ def solver(list)
 
 ```
 
+# Problem 13
+Largest Product in a Grid
+What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the  grid?
 
+```
+def solver(p,q) :
+  return greatest product of n
+```
+
+# Problem 14
+
+ Write a program to solve a Sudoku puzzle by filling the empty cells.
+```
+ Input: 
+ board = [["5","3",".",".","7",".",".",".","."],["6",".",".","1","9","5",".",".","."],[".","9","8",".",".",".",".","6","."],["8",".",".",".","6",".",".",".","3"],["4",".",".","8",".","3",".",".","1"],["7",".",".",".","2",".",".",".","6"],[".","6",".",".",".",".","2","8","."],[".",".",".","4","1","9",".",".","5"],[".",".",".",".","8",".",".","7","9"]]
+
+ Output: [["5","3","4","6","7","8","9","1","2"],["6","7","2","1","9","5","3","4","8"],["1","9","8","3","4","2","5","6","7"],["8","5","9","7","6","1","4","2","3"],["4","2","6","8","5","3","7","9","1"],["7","1","3","9","2","4","8","5","6"],["9","6","1","5","3","7","2","8","4"],["2","8","7","4","1","9","6","3","5"],["3","4","5","2","8","6","1","7","9"]]
+
+```

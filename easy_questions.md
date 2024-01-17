@@ -2,42 +2,29 @@
 
 # Questions 1
 
-One classic method for composing secret messages is called a square code. The spaces are removed from the english text and the characters are written into a square (or rectangle). For example, the sentence "If man was meant to stay on the ground god would have given us roots" is 54 characters long, so it is written into a rectangle with 7 rows and 8 columns.
-
-ifmanwas <br>
-meanttos<br>
-tayonthe<br>
-groundgo<br>
-dwouldha<br>
-vegivenu<br>
-sroots<br>
-
+You are given an n x n 2D matrix representing an image, rotate the image by 90 degrees (clockwise)
 
 ```
-def my_secret(message): 
-return secret_message 
+Input: matrix = [[1,2,3],[4,5,6],[7,8,9]]
+Output: [[7,4,1],[8,5,2],[9,6,3]]
+
 ```
-
-
 
 # Questions 2
 
-Left Outer Join
+Find the Index of the First occurrence in a String
 
-Given two files, write a left outer join function on any number of keys
+
 ```
-def files_leftouterjoin(filename1, filename2,**kwargs)
-
+Input: haystack = "sadbutsad", needle = "sad"
+Output: 0
  ```
 
 
-
-The output file should be named 'results.csv' and should contain the results of the join operation
-
 # Questions 3 
-Right Outer Join
+Right Outer Join and Left outer Join
 
-Given two files, write a right outer join function on any number of keys
+Given two files, write a right outer join and left outer join function on any number of keys
 
 
 ``` 
@@ -56,33 +43,20 @@ The output file should be named 'results.csv' and should contain the results of 
 
  ```
 
- # Questions 5
- Number Letter Counts
-
- If the numbers 
- to 
- are written out in words: one, two, three, four, five, then there are  1+2+3+4+5
- letters used in total
-
-```
-input :  solver(a= "start value" , b = "end value")
-output : return count 
-
-
-```
 # Questions 6
-Infix Postfix Prefix 
+Remove Duplicates from Sorted Array
+
+Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once
 
 ```
-def prefix(string) :
-converting the string or given content in to postfix,prefix 
-
-return postfix 
+Input: nums = [1,1,2]
+Output: 2, nums = [1,2]
 
 ```
+
 
 # Question 7 
-problems of list comprihensions like :
+Problems of list comprihensions like :
 
 Nest list comprehensions
 Write a function nested_prime() to generate a list of prime numbers upto using only a nested list comprehension
@@ -128,6 +102,29 @@ def pattern(string):
    
 
 ```
+ # Questions 12
+Spiral Matrix
+
+Given an m x n matrix, return all elements of the matrix in spiral order.
+
+```
+Input: matrix = [[1,2,3],[4,5,6],[7,8,9]]
+Output: [1,2,3,6,9,8,7,4,5]
+
+```
 
 
+ # Questions 13 
+ Number Letter Counts
 
+ If the numbers 
+ to 
+ are written out in words: one, two, three, four, five, then there are  1+2+3+4+5
+ letters used in total
+
+```
+input :  solver(a= "start value" , b = "end value")
+output : return count 
+
+
+```
